@@ -324,9 +324,41 @@ This feature is particularly useful for cloud development and testing workflows 
 
 <img width="1884" height="855" alt="the file has been downloaded as azurelab 2" src="https://github.com/user-attachments/assets/50a7513c-6b0b-4521-aa0a-d99f7e5a0f70" />
 
+## Verifying File Modification and Access in Azure Blob Storage
 
+![Azure Portal - File Edited and Context Menu Shown](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the `azure-lab.txt` file within the `labtest` container of the `anthony11095` Azure Storage Account after successful content editing. Additionally, a context menu is visible, indicating the file is being accessed or downloaded.
 
+### Key Elements Displayed:
+- The file `azure-lab.txt` is open and visible with its modified content:
+  - Line 1: `hello`
+  - Line 2: `goodbye`
+- Azure's blob editor interface is active with toolbar options including:
+  - **Edit**
+  - **Download**
+  - **Refresh**
+  - **Generate SAS**
+  - **Delete**
+- A floating context menu appears at the top right, showing file options such as:
+  - File path
+  - File size
+  - Download confirmation or system prompt
+
+### Purpose of This Step
+
+This screen confirms that:
+- The file content has been successfully edited within Azure Blob Storage.
+- The file can be accessed, downloaded, and confirmed locally via browser or portal tools.
+- Access controls and storage interaction workflows are functioning as expected.
+
+This final interaction verifies end-to-end functionality:
+1. File creation on the local machine
+2. Upload to Azure Storage
+3. Edit from the Azure Portal
+4. Confirmation of access/download
+
+These steps simulate a full cloud storage lifecycle commonly used in development, testing, and operations environments.
 
 <img width="1886" height="865" alt="deleting resouce group created in previous steps" src="https://github.com/user-attachments/assets/939dc313-b53d-47ac-9c8f-9ff3a7c0d1ef" />
 
