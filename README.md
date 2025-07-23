@@ -141,12 +141,29 @@ After this step is complete, users can proceed to create and deploy other servic
 
 <img width="1919" height="878" alt="Resource group created" src="https://github.com/user-attachments/assets/70adfc4d-5674-4a49-b324-fe8c0325e712" />
 
+## Resource Group Successfully Created
 
+![Azure Portal - Resource Group View](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot confirms that a **resource group** has been successfully created in the Microsoft Azure Portal. The resource group is now listed and visible under the **Resource groups** section of the Azure interface.
 
+### Key Elements Displayed:
+- The **Resource groups** blade is active in the portal.
+- One resource group is listed under the current subscription (`Azure subscription 1`).
+- The region selected for the resource group is `East US 2`.
+- Sorting, filtering, and tagging options are available for organizing multiple groups.
+- The **Storage accounts** blade is also visible at the bottom, indicating the next possible step.
 
+### Confirmation and Purpose
 
+The presence of the newly created resource group in this view confirms that the creation process was completed successfully. This group will serve as the logical container for deploying and managing related Azure services such as virtual machines, storage accounts, or networking resources.
 
+By organizing resources within a group:
+- Management is simplified through centralized controls
+- Deletion or cleanup of resources is more efficient
+- Billing and monitoring can be done on a per-group basis
+
+With the resource group in place, the environment is now ready for deploying additional cloud services.
 
 <img width="1904" height="865" alt="before creating a storage account" src="https://github.com/user-attachments/assets/f37e816f-e8cd-4cfc-b32a-3a5e2bce4911" />
 
