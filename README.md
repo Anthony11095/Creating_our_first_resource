@@ -193,6 +193,26 @@ This clean starting point ensures clarity when tracking new resources and managi
 
 <img width="1908" height="870" alt="after creating a Storage Account which resides inside of the resource group" src="https://github.com/user-attachments/assets/c3cc15a1-1062-4dd9-9661-48550a87ac6e" />
 
+## Storage Account Successfully Created and Assigned to Resource Group
+
+![Azure Portal - Storage Account Created](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
+
+This screenshot shows the successful creation of a **storage account** within the **Lab-Test-Anthony** resource group in the Microsoft Azure Portal.
+
+### Key Elements Displayed:
+- The upper panel still states **"No storage accounts to display"**, which appears to be a previous view or default landing message.
+- The **Lab-Test-Anthony** resource group is selected in the lower panel, confirming it's currently in focus.
+- One storage account is now listed with the name `a****y11095` (partially visible for privacy).
+- The **Type** is identified as `Storage account`, and the **Location** is set to `East US 2`.
+
+### Confirmation and Significance
+
+This confirms that a storage account has been successfully created and is associated with the active resource group. It is now available to:
+- Upload, manage, and edit files (blobs, tables, queues, etc.)
+- Test storage functionality such as file persistence, download, and permissions
+- Proceed with hands-on activities involving file operations inside Azure Storage
+
+The storage account can now be accessed directly to create containers or upload text files for lab testing.
 
 
 
