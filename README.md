@@ -290,9 +290,37 @@ Uploading files to Azure Blob Storage is a foundational cloud task for handling 
 
 <img width="1881" height="853" alt="editing the file , downloading and watching the changes" src="https://github.com/user-attachments/assets/fab2befb-7b21-4c30-bcc1-cbfa2444e10c" />
 
+## Editing a Blob File in Azure Storage
 
+![Azure Portal - Editing Blob File](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the **inline editing** of a blob file named `azure-lab.txt` within the `labtest` container of the Azure Storage Account `anthony11095`.
 
+### Key Elements Displayed:
+- The **labtest** container is selected, and the file `azure-lab.txt` is open.
+- Azure's built-in editor is in use, displaying the current file content:
+  - Line 1: `hello`
+  - Line 2: `goodbye`
+- The top toolbar includes options such as:
+  - **Download**
+  - **Refresh**
+  - **Delete**
+  - **Generate SAS**
+  - **Edit** (active)
+
+### Purpose of This Step
+
+This step illustrates how to:
+- Open a text file stored in Azure Blob Storage directly from the portal.
+- Edit the content using the built-in web editor without needing to re-upload or download the file.
+- Modify stored data in real-time for testing, collaboration, or configuration updates.
+
+By editing the blob content (`hello` changed to `goodbye`), users can verify:
+- File change persistence
+- Version control (if enabled)
+- Proper permissions and authentication under the selected access key model
+
+This feature is particularly useful for cloud development and testing workflows where manual file updates are necessary.
 
 <img width="1884" height="855" alt="the file has been downloaded as azurelab 2" src="https://github.com/user-attachments/assets/50a7513c-6b0b-4521-aa0a-d99f7e5a0f70" />
 
