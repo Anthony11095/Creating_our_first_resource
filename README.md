@@ -362,6 +362,28 @@ These steps simulate a full cloud storage lifecycle commonly used in development
 
 <img width="1886" height="865" alt="deleting resouce group created in previous steps" src="https://github.com/user-attachments/assets/939dc313-b53d-47ac-9c8f-9ff3a7c0d1ef" />
 
+## Deleting the Resource Group in Azure
+
+![Azure Portal - Deleting Resource Group](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
+
+This screenshot captures the **deletion process** of the resource group `Lab-Test-Anthony` within the Microsoft Azure Portal. Deleting a resource group is a crucial final step to ensure proper cleanup of all associated resources and avoid ongoing charges.
+
+### Key Elements Displayed:
+- The **Resource groups** blade is open with `Lab-Test-Anthony` selected.
+- On the right side, a **confirmation panel** titled "Delete a resource group" is shown.
+- The resource group name `Lab-Test-Anthony` is listed in the deletion summary.
+- Dependent resources, including the storage account `anthony11095`, are listed and will be deleted along with the group.
+- A confirmation field appears where the user must type the name of the resource group to confirm deletion.
+- A red **Delete** button is visible at the bottom to finalize the action.
+
+### Purpose of This Step
+
+This step ensures:
+- Proper teardown of all Azure resources created during the lab or project.
+- Prevention of unnecessary charges from idle or unused services.
+- Return of the Azure environment to a clean state.
+
+Deleting a resource group automatically deletes all its child resources (e.g., storage accounts, containers, files), making it a powerful and efficient cleanup mechanism. This is considered a best practice in sandbox, testing, and training environments.
 
 
 
