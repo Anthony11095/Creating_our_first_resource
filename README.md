@@ -214,18 +214,28 @@ This confirms that a storage account has been successfully created and is associ
 
 The storage account can now be accessed directly to create containers or upload text files for lab testing.
 
-
-
-
-
-
 <img width="1505" height="830" alt="text file that was created" src="https://github.com/user-attachments/assets/cdafff3e-21fd-4329-9f0e-be32e1496d6b" />
 
+## Creating a Text File for Azure Storage Upload
 
+![Local Text File Created - Ready for Upload](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows a locally created **text file** named `azure-lab.txt` open on the user's desktop environment, specifically within the **Documents** folder on OneDrive. The file contains a simple message: `Hello`.
 
+### Key Elements Displayed:
+- The file is named `azure-lab.txt` and saved in plain text format (`.txt` extension).
+- The text editor being used is Notepad or a similar plain text editor.
+- Encoding is shown as `UTF-8`, and the file format is `Plain text`.
+- Azure Storage Account blade is open in the background, showing the `anthony11095` storage account and an active container creation pane.
 
+### Purpose of This Step
 
+This step demonstrates the creation of a **simple text file** on the local machine, which will later be:
+1. Uploaded to an Azure Storage container
+2. Edited directly within the Azure Portal
+3. Downloaded again to verify successful changes and round-trip file handling
+
+Creating and using a plain text file is an effective way to validate Azure Blob Storage functionality and test file manipulation capabilities in a controlled lab environment.
 
 <img width="1902" height="871" alt="create a text file and upload it to your Azure storage account" src="https://github.com/user-attachments/assets/5fe5af2d-a445-46c5-9449-5ecef05c1837" />
 
