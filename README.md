@@ -86,13 +86,32 @@ CONFIGURATION STEPS
 
 <img width="1910" height="880" alt="Azure portal" src="https://github.com/user-attachments/assets/410f8721-53ba-48e0-acd2-0d25d82a3076" />
 
+## Azure Portal Overview – Starting Configuration
 
+![Azure Portal - Configuration Steps Overview](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot displays the **Microsoft Azure Portal** landing page, specifically highlighting the **Azure services** section used to begin resource setup and management.
 
+### Key Elements Displayed:
+- **Create a resource**: Entry point for launching any new Azure service (e.g., VMs, storage, databases).
+- **Virtual machines**: Shortcut to manage or create virtual machines.
+- **Storage accounts**: Used to access Azure Blob/File/Table/Queue storage services.
+- **Resource groups**: Central management containers for logically grouping related resources.
+- **Microsoft Entra ID**: Identity management section (formerly Azure Active Directory).
+- **Cost Management**: Budgeting, cost analysis, and usage reporting.
+- **Quickstart Center**: Guided onboarding for Azure beginners.
+- **Dashboard**: Customizable workspace to pin and view Azure resources.
 
+The lower section confirms that **no resources have been viewed recently**, indicating a fresh or reset user session.
 
+### Purpose of This Screen
 
+This view acts as the **launchpad** for nearly all Azure lab configurations. From this page, users can:
+- Create and manage core infrastructure like resource groups and storage accounts
+- Begin tracking and budgeting costs via the Cost Management service
+- Access recently used items or navigate to subscriptions and dashboards
 
+This interface is commonly used as the first step when setting up environments for hands-on labs, cloud application deployments, or cost optimization exercises.
 
 <img width="1915" height="885" alt="Creating a resource group" src="https://github.com/user-attachments/assets/5358a412-f06c-4306-abb4-95486ba311ff" />
 
