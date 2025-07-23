@@ -263,10 +263,30 @@ After this container is created, the next step will be uploading the prepared te
 
 <img width="1905" height="834" alt="view or edit the file created inside storage account earlier" src="https://github.com/user-attachments/assets/31145fb7-0810-4685-ad92-5528b61d9248" />
 
+## Uploading a File to Azure Blob Storage Container
 
+![Azure Portal - File Uploaded to Blob Container](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot confirms the successful upload of a text file (`azure-lab.txt`) to the newly created blob storage container named `labtest` within the Azure Storage Account `anthony11095`.
 
+### Key Elements Displayed:
+- The **labtest** container is open under the **Containers** section of the `anthony11095` storage account.
+- The file `azure-lab.txt` is visible in the container with metadata including:
+  - **Modified date:** 7/23/2025, 1:48:08 PM
+  - **Access tier:** Hot (inferred)
+  - **Blob type:** Block blob
+  - **Size:** 5.4 KB
+- A storage navigation pane on the left shows data services including Blob, File shares, Queues, and Tables.
+- The file is selected, and action buttons such as `Download`, `View/edit`, `Delete`, and `Generate SAS` are available.
 
+### Purpose of This Step
+
+This step demonstrates how to:
+- Upload a locally created file (e.g., `azure-lab.txt`) into an Azure Blob Storage container.
+- Confirm successful file storage and metadata visibility.
+- Prepare for additional file operations such as downloading, editing, or sharing via secure access links (SAS tokens).
+
+Uploading files to Azure Blob Storage is a foundational cloud task for handling data persistence, backup, and remote access in cloud-based applications and training environments.
 
 <img width="1881" height="853" alt="editing the file , downloading and watching the changes" src="https://github.com/user-attachments/assets/fab2befb-7b21-4c30-bcc1-cbfa2444e10c" />
 
