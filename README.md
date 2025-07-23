@@ -167,13 +167,29 @@ With the resource group in place, the environment is now ready for deploying add
 
 <img width="1904" height="865" alt="before creating a storage account" src="https://github.com/user-attachments/assets/f37e816f-e8cd-4cfc-b32a-3a5e2bce4911" />
 
+## Viewing Storage Accounts in Azure
 
+![Azure Portal - Storage Accounts View](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the **Storage accounts** blade within the Microsoft Azure Portal. The interface currently indicates that **no storage accounts** have been created yet in the selected subscription and resource group.
 
+### Key Elements Displayed:
+- The view is filtered to show storage accounts within the resource group `Lab-Test-Anthony`.
+- The message "No storage accounts to display" confirms that no accounts exist yet under this filter.
+- A blue **+ Create** button is available to begin the creation of a new storage account.
+- Additional filter options are shown: subscription, location, resource group, and more.
+- The lower pane confirms that the resource group `Lab-Test-Anthony` is active and selected.
 
+### Purpose and Next Step
 
+This screen is typically used to monitor, manage, or create storage accounts in Azure. Since no storage accounts currently exist, this indicates the environment is in a clean or initial state—ready for the next step.
 
+From here, the next action is to:
+- Click **+ Create** to launch the storage account creation wizard.
+- Specify the resource group, region, performance tier, redundancy, and other settings.
+- Use the storage account for hosting blobs, files, queues, or tables as needed for the lab or project.
 
+This clean starting point ensures clarity when tracking new resources and managing cloud storage.
 
 <img width="1908" height="870" alt="after creating a Storage Account which resides inside of the resource group" src="https://github.com/user-attachments/assets/c3cc15a1-1062-4dd9-9661-48550a87ac6e" />
 
