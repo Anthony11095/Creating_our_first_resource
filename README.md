@@ -115,13 +115,29 @@ This interface is commonly used as the first step when setting up environments f
 
 <img width="1915" height="885" alt="Creating a resource group" src="https://github.com/user-attachments/assets/5358a412-f06c-4306-abb4-95486ba311ff" />
 
+## Creating a Resource Group in Azure
 
+![Azure Portal - Create a Resource Group](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot captures the process of creating a **Resource Group** within the Microsoft Azure Portal. A resource group acts as a logical container for grouping related Azure resources like virtual machines, storage accounts, and network interfaces.
 
+### Key Interface Elements Displayed:
+- **Subscription:** The selected subscription is labeled as "Active Directory."
+- **Resource Group Name:** A user-defined name is expected to be entered in this field.
+- **Region:** `(US) East US 2` is selected, determining the geographic location where resources in this group will be deployed.
 
+At the bottom, a **"Review + create"** button is visible, allowing the user to validate and finalize the creation of the resource group.
 
+### Context and Purpose
 
+Creating a resource group is typically the **first step** in setting up cloud infrastructure in Azure. It ensures that all services and components deployed for a specific solution are organized under one manageable scope.
 
+This foundational step allows for:
+- Easier cost tracking and billing
+- Simplified lifecycle management (create, modify, delete)
+- Consolidated monitoring and access control via RBAC
+
+After this step is complete, users can proceed to create and deploy other services like storage accounts or virtual machines within the same group.
 
 <img width="1919" height="878" alt="Resource group created" src="https://github.com/user-attachments/assets/70adfc4d-5674-4a49-b324-fe8c0325e712" />
 
