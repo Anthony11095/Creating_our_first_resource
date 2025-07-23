@@ -239,10 +239,27 @@ Creating and using a plain text file is an effective way to validate Azure Blob 
 
 <img width="1902" height="871" alt="create a text file and upload it to your Azure storage account" src="https://github.com/user-attachments/assets/5fe5af2d-a445-46c5-9449-5ecef05c1837" />
 
+## Creating a New Container in Azure Blob Storage
 
+![Azure Portal - Creating a New Container](https://user-images.githubusercontent.com/YOUR_IMAGE_LINK.jpg)
 
+This screenshot shows the process of creating a **new container** within an Azure Storage Account (`anthony11095`) using the Azure Portal interface. Containers are essential components of Azure Blob Storage used to organize and store blob objects such as text files, images, and backups.
 
+### Key Elements Displayed:
+- The **Containers** blade is open under the `anthony11095` storage account.
+- One existing container named `logs` is already present.
+- A new container named `labtest` is being created using the panel on the right.
+- The **access level** is set to **Private (no anonymous access)** by default.
+- The file `azure-lab.txt` seen in the background was previously created and is ready for upload.
 
+### Purpose of This Step
+
+Creating a container is a required step before uploading any files to Azure Blob Storage. Containers serve as logical folders within the storage account and enable users to:
+- Organize files for specific projects or labs
+- Apply access controls and permission settings
+- Manage storage tiers and cost-efficiency options
+
+After this container is created, the next step will be uploading the prepared text file (`azure-lab.txt`) to the `labtest` container for storage and remote access testing.
 
 <img width="1905" height="834" alt="view or edit the file created inside storage account earlier" src="https://github.com/user-attachments/assets/31145fb7-0810-4685-ad92-5528b61d9248" />
 
