@@ -17,12 +17,18 @@ This lab guides users through creating a resource group and a storage account in
 
 ---
 
-## ✅ Prerequisites:
-- A valid Microsoft account
-- An active Azure subscription (Free Trial or Pay-As-You-Go)
-- Access to the internet
-- A basic understanding of cloud storage concepts
-- Optional: A plain-text editor installed locally (e.g., Notepad for Windows, TextEdit for macOS)
+## 🔧 Prerequisites
+
+Before beginning this Azure lab, ensure the following requirements are met:
+
+- A valid Microsoft account for Azure access  
+- A free Azure subscription or Pay-As-You-Go option  
+- Access to the [Azure Portal](https://portal.azure.com)  
+- A computer with internet access  
+- A local text editor (e.g., Notepad or VS Code) to create and modify `.txt` files  
+- Browser access to view Azure Storage resources  
+- If using macOS: ability to adjust text editor settings (e.g., plain text mode)  
+- Basic familiarity with navigating the Azure Portal (Resource Groups, Storage Accounts)
 
 ---
 
